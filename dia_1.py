@@ -1,7 +1,9 @@
-print("Hello world")
+print("Hello world") #imprimir todo lo que haya en comillas feste string sera tratado como texto
 
-print('Estudiar con "Python Total" es super divertido')
+print('Estudiar con "Python Total" es super divertido') #Para destacar un mensaje primero se utilizan las '' comillas simples y despues "" las dobles o viceversa
+ 
+print(550+5) #Sin comilas para imprimir un operador
 
-print(550+5)
+print("Línea 1\nLínea 2\nLínea 3") #La expresion \n imprime en otra línea el texto sin la necesidad de poner 4 print
 
-print("Línea 1\nLínea 2\nLínea 3")
+print("A\tB\tC\nD\tE\tF\nG\tH\tI")#La expresion \t tabular añade 4 espacios a tu línea de codigo
