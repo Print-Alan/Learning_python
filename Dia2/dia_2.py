@@ -33,5 +33,15 @@ print(type(num_decimal))
 
 num1 = 7.5
 num2 = 2.5
-sum = num1 + num2
-print(type(num1+num2))
+sum = int(num1 + num2)
+print(type(sum) )
+
+#Conversiones
+
+mi_valor = 1 
+otro_valor = 2
+sum = int(mi_valor + otro_valor)
+print(sum)
+
+num1 = int(7.5)
+print(type(num1))
