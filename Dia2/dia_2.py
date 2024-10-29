@@ -20,4 +20,7 @@ nombrecompleto = nombre + apellido
 print(nombrecompleto)
 
 curso = "Python"
-print("Estás tomando un curso de" + " " + "curso" )
+print("Estás tomando un curso de" + " " + curso )
+
+edad = input("Dime tu edad ")
+print("Tu edad es: " + edad)
