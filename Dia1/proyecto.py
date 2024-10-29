@@ -1,0 +1,1 @@
+print(("La cerveza se llama") + ("\n") + ("\"") + input("¿Cual es tu juego favorito?") + " " + input("¿Cual es tu color favorito?") + ("\""))

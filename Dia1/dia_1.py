@@ -14,4 +14,4 @@ print(input("¿Qué estás estudiando? ")) #input() le pide datos para que los i
 
 print(input("¿En qué país vives?"))
 
-print(input("Escribe tu nombre: ") +(" ") + input("Escribe tu apellido: "))
+print(input("Escribe tu nombre: ") + (" ") + input("Escribe tu apellido: "))
