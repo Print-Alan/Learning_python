@@ -10,4 +10,8 @@ print("A\tB\tC\nD\tE\tF\nG\tH\tI") #La expresion \t tabular añade 4 espacios a 
 
 print("Barra Normal: /\nBarra Invertida: \\") #La expresion \\ imprime el valor literal despues del \
 
-print(input("¿Qué estás estudiando? "))
+print(input("¿Qué estás estudiando? ")) #input() le pide datos para que los ingrese el usuario
+
+print(input("¿En qué país vives?"))
+
+print(input("Escribe tu nombre: ") +(" ") + input("Escribe tu apellido: "))
