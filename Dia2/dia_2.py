@@ -22,5 +22,8 @@ print(nombrecompleto)
 curso = "Python"
 print("Estás tomando un curso de" + " " + curso )
 
-edad = input("Dime tu edad ")
+edad = input("Dime tu edad ") #Input transforma los valores dados a strings
 print("Tu edad es: " + edad)
+
+num_enter = 5
+print(type(num_enter))
