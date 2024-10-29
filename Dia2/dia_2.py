@@ -12,12 +12,9 @@
 #Variables
 
 nombre = "Juan"
-print(nombre)
+edad = 15
 
-nombre = "Laura"
-print(nombre)
-
-edad = input ("Dime tu edad ")
-cum = input("Dime tu numero de cumpeaños favorito ")
-exito = edad + cum
-print (exito)
+nombre = "Julia "
+apellido = "Roberts"
+nombrecompleto = nombre + apellido
+print(nombrecompleto)
