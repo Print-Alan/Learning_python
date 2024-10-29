@@ -9,3 +9,5 @@ print("Línea 1\nLínea 2\nLínea 3") #La expresion \n imprime en otra línea el
 print("A\tB\tC\nD\tE\tF\nG\tH\tI") #La expresion \t tabular añade 4 espacios a tu línea de codigo
 
 print("Barra Normal: /\nBarra Invertida: \\") #La expresion \\ imprime el valor literal despues del \
+
+print(input("¿Qué estás estudiando? "))
