@@ -27,3 +27,11 @@ print("Tu edad es: " + edad)
 
 num_enter = 5
 print(type(num_enter))
+
+num_decimal = 1.5
+print(type(num_decimal))
+
+num1 = 7.5
+num2 = 2.5
+sum = num1 + num2
+print(type(num1+num2))
