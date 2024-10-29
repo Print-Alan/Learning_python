@@ -8,3 +8,16 @@
 #tuples(tuple) ('lun','mar','mie','jue','vie') Son similares a las listas, pero con la diferencia de que no pueden modificarse
 #sets(set) {'a','b','c','d','e'} Es un conjunto de elementos ordenados unicos e irrepetibles
 #booleanos (bool) True, False Es un dato que solo puede tener dos valores true, false. Para saber si una condicion se cumple
+
+#Variables
+
+nombre = "Juan"
+print(nombre)
+
+nombre = "Laura"
+print(nombre)
+
+edad = input ("Dime tu edad ")
+cum = input("Dime tu numero de cumpeaños favorito ")
+exito = edad + cum
+print (exito)
