@@ -45,3 +45,6 @@ print(sum)
 
 num1 = int(7.5)
 print(type(num1))
+
+num2 = float(10)
+print(type(num2))
