@@ -74,3 +74,4 @@ print(f"{456 % 33}") # El operador Modulo (%) Te da como resultado el sobrante d
 
 print(f"{783**0.5}") #El operador Raiz cuadrada (**0.5) El resultado da un numero que al ser multiplicadp por sí mismo da el valor que se le asigno en este caso 783
 
+print(round(10 / 3,2)) #El metodo Round redondea al numero decimal mas cercano y que sea par esto si se usa un .5. La coma despues de la operación le puedes idicar cuantos decimales quiers que muestre
