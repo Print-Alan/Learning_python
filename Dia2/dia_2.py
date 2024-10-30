@@ -52,3 +52,7 @@ print(type(num2))
 num1 = "7.5"
 num2 = "10"
 print((float(num1)) + (float(num2)))
+
+nombre_asociado = "Jesse Pinkman"
+numero_asociado = 399058
+print(f"Estimado/a {nombre_asociado}, su número de asociado es: {numero_asociado}")
