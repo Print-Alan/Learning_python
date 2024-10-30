@@ -56,3 +56,7 @@ print((float(num1)) + (float(num2)))
 nombre_asociado = "Jesse Pinkman"
 numero_asociado = 399058
 print(f"Estimado/a {nombre_asociado}, su número de asociado es: {numero_asociado}")
+
+puntos_nuevos = 350
+puntos_totales = 1225
+print("Has ganado {} puntos! En total, acumulas {} puntos".format(puntos_nuevos,puntos_totales))
