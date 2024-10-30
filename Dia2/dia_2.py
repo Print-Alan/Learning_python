@@ -78,3 +78,6 @@ print(round(10 / 3,2)) #El metodo Round redondea al numero decimal mas cercano y
 
 valor = 10.676767
 print(round(valor)) #El metodo Round redondea al numero decimal mas cercano
+
+print(round(5**0.5,4)) #Aqui le estamos diciendo que eleve al cuadrado y que muestre el resultado con 4 decimales
+
