@@ -67,4 +67,7 @@ print(f"Has ganado {puntos_nuevos} puntos! En total, acumulas {puntos_anteriores
 
 x = 874
 y = 27
-print(f"{x//y}")
+print(f"{x//y}") #La doble barra indica que es una divicion al piso es dice que eliminara los numeros despues de punto decimal
+
+print(f"{456 % 33}") # El operador Modulo (%) Te da como resultado el sobrante de la divicion es decir cuantas veces entra 33 en 456 = 13, pero sobran 27
+#sirve para determinar si un número es par o impar, o para ciclos y repetición en estructuras de datos.
