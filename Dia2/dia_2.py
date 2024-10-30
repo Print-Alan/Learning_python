@@ -55,11 +55,11 @@ print((float(num1)) + (float(num2)))
 
 nombre_asociado = "Jesse Pinkman"
 numero_asociado = 399058
-print(f"Estimado/a {nombre_asociado}, su número de asociado es: {numero_asociado}")
+print(f"Estimado/a {nombre_asociado}, su número de asociado es: {numero_asociado}") #Format (f) realizara una tarea asignada entre { }
 
 puntos_nuevos = 350
 puntos_totales = 1225
-print("Has ganado {} puntos! En total, acumulas {} puntos".format(puntos_nuevos,puntos_totales))
+print("Has ganado {} puntos! En total, acumulas {} puntos".format(puntos_nuevos,puntos_totales)) #Esta es otra manera de escribir Format, la clasica
 
 puntos_anteriores = 875
 puntos_nuevos = 350
