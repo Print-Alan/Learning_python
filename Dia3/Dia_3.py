@@ -16,3 +16,7 @@ frase = "En teoría, la teoría y la práctica son los mismos. En la práctica, 
 resultado4 = frase.rindex("práctica")
 print(resultado4)
 
+frase = "Controlar la complejidad es la esencia de la programación"
+resultado5 = frase[0:9]
+print(resultado5)
+
