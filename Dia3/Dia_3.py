@@ -20,3 +20,7 @@ frase = "Controlar la complejidad es la esencia de la programación"
 resultado5 = frase[0:9]
 print(resultado5)
 
+frase = "Nunca confíes en un ordenador que no puedas lanzar por una ventana"
+resultado6 = frase[8::3]
+print(resultado6)
+
