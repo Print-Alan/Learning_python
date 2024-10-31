@@ -1,9 +1,13 @@
 #Metodo index()
 
 mi_texto = "Esta es una prueba"
-resutaldo = mi_texto[6]
-print(resutaldo)
+resutaldo1 = mi_texto[6]
+print(resutaldo1)
 
 palabra = "ordenador"
-resultado = palabra[4]
-print(resultado)
+resultado2 = palabra[4]
+print(resultado2)
+
+frase = "En teoría, la teoría y la práctica son los mismos. En la práctica, no lo son."
+resultado3 = frase.index("práctica")
+print(resultado3)
