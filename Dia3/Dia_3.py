@@ -43,3 +43,7 @@ frase = "Si la implementación es difícil de explicar, puede que sea una mala i
 resultado8 = frase.replace("difícil","fácil") #El metodo replace remplaza palabras por las que quieras despues de la coma
 resultado9 = resultado8.replace("mala","buena")
 print(resultado9)
+
+#Propiedades de string
+
+print("Repetición"*15)
