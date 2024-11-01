@@ -59,3 +59,8 @@ print(len(x)) #Len te dice que tan largo es tu string
 #Listas
 
 mi_lista = ["1","hola","nop","1.5","8"] #Las listas se colocan entre corchetes y comillas
+
+medios_transporte = ["avión", "auto", "barco", "bicicleta"]
+medios_transporte.append("motocicleta") #El metodo .append sirve para agregar un dato a tu lista al final
+print(medios_transporte)
+
