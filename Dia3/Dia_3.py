@@ -39,3 +39,7 @@ lista_palabras = ["La","legibilidad","cuenta."]
 resultado8 = " ".join(lista_palabras) #El metodo join une las palabras que estan en una lista. En este caso con un espacio pero puede ser con cualquier caracter
 print(resultado8)
 
+frase = "Si la implementación es difícil de explicar, puede que sea una mala idea."
+resultado8 = frase.replace("difícil","fácil") #El metodo replace remplaza palabras por las que quieras despues de la coma
+resultado9 = resultado8.replace("mala","buena")
+print(resultado9)
