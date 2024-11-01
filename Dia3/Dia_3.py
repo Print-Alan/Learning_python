@@ -80,3 +80,7 @@ print(mi_dic)
 mi_dict = {"valores_1":{"v1":3,"v2":6},"puntos":{"points1":9,"points2":[10,300,15]}} #Dentro de este diccionario hay 2 diccionarios en el cual el diccionario de putos tiene poinst2 con una lista
 print(mi_dict["puntos"]["points2"][1]) #Para accerder dentro de un diccionario especifico se utiliza el metodo [][] hasta llegar al indicado
 
+mi_dic = {"nombre":"Karen", "apellido":"Jurgens", "edad":36, "ocupacion":"Editora"} #Diccionario
+mi_dic["pais"] = "Colombia" #Con este metodo agregamos otro valor al dicionario sin modificar el principal
+print(mi_dic)
+
