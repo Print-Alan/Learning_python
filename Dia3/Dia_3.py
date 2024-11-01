@@ -47,3 +47,8 @@ print(resultado9)
 #Propiedades de string
 
 print("Repetición"*15)
+
+x = ("""Tierra mojada
+mis recuerdos de viaje,
+entre las lluvias""")
+print(x not in ("agua"))
