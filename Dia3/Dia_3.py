@@ -68,3 +68,11 @@ frutas = ["manzana", "banana", "mango", "cereza", "sandía"]
 eliminado = frutas.pop(2) #El metodo .pop() elimina elementos de la lista que se llama frutas (Se empieza a contar desde el 0)
 print(eliminado)
 
+#Diccionarios
+
+dic = {"c1":["a","b","c"],"c2":["d","e","f"]} #El metodo diccionario va escrito entre {} se pueden guardar otros diccionarios o listas dentro de este
+re = dic["c2"][1].upper() #Aqui estamos consultando que hay en el dic C2 indice 1 y con el metodo upper haciendolo mayuscula
+print(re)
+
+mi_dic = {"nombre": "Karen","apellido": "Jurgens","edad": 35,"ocupacion": "Periodista"} #Diccionario escrito entre llaves y comillas separados por comas y primero se coloca el caracter y despues su valor 
+print(mi_dic) 
