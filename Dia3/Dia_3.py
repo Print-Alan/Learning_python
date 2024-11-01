@@ -64,3 +64,7 @@ medios_transporte = ["avión", "auto", "barco", "bicicleta"]
 medios_transporte.append("motocicleta") #El metodo .append sirve para agregar un dato a tu lista al final
 print(medios_transporte)
 
+frutas = ["manzana", "banana", "mango", "cereza", "sandía"]
+eliminado = frutas.pop(2) #El metodo .pop() elimina elementos de la lista que se llama frutas (Se empieza a contar desde el 0)
+print(eliminado)
+
