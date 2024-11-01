@@ -46,12 +46,16 @@ print(resultado9)
 
 #Propiedades de string
 
-print("Repetición"*15)
+print("Repetición"*15) #En este caso el simbolo * multiplica 15 veces la palabra repeticion
 
 x = ("""Tierra mojada
 mis recuerdos de viaje,
-entre las lluvias""")
-print(x not in ("agua"))
+entre las lluvias""") # Al poner 3 veces las comillas dobles te permite poder escribir texto en diferentes líneas.
+print(x not in ("agua")) #No esta en (Not in) es una propiedad de tipo booleano que responde si es true or false. Tambien esta la propiedad (in) para verificar si se encuentra una palabra en tu texto
 
 x = "lectroencefalografista."
-print(len(x))
+print(len(x)) #Len te dice que tan largo es tu string
+
+#Listas
+
+mi_lista = ["1","hola","nop","1.5","8"] #Las listas se colocan entre corchetes y comillas
