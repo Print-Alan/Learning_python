@@ -52,3 +52,6 @@ x = ("""Tierra mojada
 mis recuerdos de viaje,
 entre las lluvias""")
 print(x not in ("agua"))
+
+x = "lectroencefalografista."
+print(len(x))
