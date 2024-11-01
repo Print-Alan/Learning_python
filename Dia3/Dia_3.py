@@ -30,3 +30,6 @@ frase = "Es genial trabajar con ordenadores. No discuten, lo recuerdan todo y no
 resultado7 = frase[::-1] #En este caso le pedimos que agrupe todos los caracteres al reves desde el final
 print(resultado7)
 
+frase = "Especialmente en las comunicaciones electrónicas, la escritura enteramente en mayúsculas equivale a gritar."
+print(frase.upper())
+
