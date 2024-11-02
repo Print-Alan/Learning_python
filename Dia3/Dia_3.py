@@ -105,3 +105,7 @@ mi_set_1 = {1, 2, "tres", "cuatro"} #Los sets son similares a los dicionarios pe
 mi_set_2 = {"tres", 4, 5} #Se escriben entre llaves {}
 mi_set_3 = mi_set_1.union(mi_set_2) #El metodo .union te da la posibilidad de juntar dos sets
 print(mi_set_3)
+
+sorteo = {"Camila", "Margarita", "Axel", "Jorge", "Miguel", "Mónica"}
+sorteo.pop() #El metodo .pop() usado en los sets elimina un dato al azar. Es peligroso, pero si quieres hacer un sorteo o algo similar a una ruleta queda bien
+print(sorteo)
