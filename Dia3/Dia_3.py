@@ -84,3 +84,6 @@ mi_dic = {"nombre":"Karen", "apellido":"Jurgens", "edad":36, "ocupacion":"Editor
 mi_dic["pais"] = "Colombia" #Con este metodo agregamos otro valor al dicionario sin modificar el principal
 print(mi_dic)
 
+#Tuples
+#Son similares a las listas, pero son inmutables (no pueden ser modificadas) y van entre parentesis, separados por coma
+
