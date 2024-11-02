@@ -94,3 +94,7 @@ print(x)
 mi_tupla = (1, 2, 3, 2, 3, 1, 3, 2)
 mi_lista = list(mi_tupla) #En este caso transformamos el tuple a lista usando el metodo list
 print(mi_lista)
+
+mi_tupla = (1, 2, 3, 4)
+a,b,c,d = mi_tupla #En este caso extraimos los tuple de la variable (mi_tupla) en a,b,c,d
+print(mi_tupla)
