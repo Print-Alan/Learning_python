@@ -98,3 +98,10 @@ print(mi_lista)
 mi_tupla = (1, 2, 3, 4)
 a,b,c,d = mi_tupla #En este caso extraimos los tuple de la variable (mi_tupla) en a,b,c,d
 print(mi_tupla)
+
+#Sets
+
+mi_set_1 = {1, 2, "tres", "cuatro"} #Los sets son similares a los dicionarios pero son inmutables, y puedes agregarle solo tuples porque son inmutables tambien
+mi_set_2 = {"tres", 4, 5} #Se escriben entre llaves {}
+mi_set_3 = mi_set_1.union(mi_set_2) #El metodo .union te da la posibilidad de juntar dos sets
+print(mi_set_3)
