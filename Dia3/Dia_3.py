@@ -87,3 +87,6 @@ print(mi_dic)
 #Tuples
 #Son similares a las listas, pero son inmutables (no pueden ser modificadas) y van entre parentesis, separados por coma
 
+mi_tupla = (1, 2, 3, 2, 3, 1, 3, 2, 3, 3, 3, 1, 3, 2, 2, 1, 3, 2)
+x = mi_tupla.count(2)
+print(x)
