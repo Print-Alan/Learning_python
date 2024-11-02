@@ -114,3 +114,8 @@ sorteo = {"Camila", "Margarita", "Axel", "Jorge", "Miguel", "Mónica"}
 sorteo.add("Damián") #El metodo .add, agrega un dato a tu set, pero lo hace al azar
 print(sorteo)
 
+#Booleanos
+#Los bool son tipos de datos binarios (True/False) que surgen de operaciones logicas de comparacion 
+
+prueba = 5==4 #En este caso usamos el operador de comparacion de (igual a) que dice si 5 es igual a 4 y es False
+print(prueba)
