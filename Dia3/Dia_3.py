@@ -109,3 +109,8 @@ print(mi_set_3)
 sorteo = {"Camila", "Margarita", "Axel", "Jorge", "Miguel", "Mónica"}
 sorteo.pop() #El metodo .pop() usado en los sets elimina un dato al azar. Es peligroso, pero si quieres hacer un sorteo o algo similar a una ruleta queda bien
 print(sorteo)
+
+sorteo = {"Camila", "Margarita", "Axel", "Jorge", "Miguel", "Mónica"}
+sorteo.add("Damián") #El metodo .add, agrega un dato a tu set, pero lo hace al azar
+print(sorteo)
+
