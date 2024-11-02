@@ -122,3 +122,7 @@ print(prueba)
 
 x = 17834/34 > 87*56 #Comparamos dos operaciones con el operador de (mayor que)
 print(x)
+
+x = 25**0.5 == 5 #lo mismo pero primero le sacamos raiz cuadrada al 25 y despues comparamos con el 5 y verificamos si es igual
+print(x)
+
