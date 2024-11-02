@@ -88,5 +88,9 @@ print(mi_dic)
 #Son similares a las listas, pero son inmutables (no pueden ser modificadas) y van entre parentesis, separados por coma
 
 mi_tupla = (1, 2, 3, 2, 3, 1, 3, 2, 3, 3, 3, 1, 3, 2, 2, 1, 3, 2)
-x = mi_tupla.count(2)
+x = mi_tupla.count(2) #El metodo .count indica cuantas veces se repite un caracter
 print(x)
+
+mi_tupla = (1, 2, 3, 2, 3, 1, 3, 2)
+mi_lista = list(mi_tupla) #En este caso transformamos el tuple a lista usando el metodo list
+print(mi_lista)
