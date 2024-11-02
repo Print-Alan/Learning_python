@@ -119,3 +119,6 @@ print(sorteo)
 
 prueba = 5==4 #En este caso usamos el operador de comparacion de (igual a) que dice si 5 es igual a 4 y es False
 print(prueba)
+
+x = 17834/34 > 87*56 #Comparamos dos operaciones con el operador de (mayor que)
+print(x)
