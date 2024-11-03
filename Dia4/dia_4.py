@@ -16,8 +16,16 @@ mi_bool = num1 != num2
 print(f"¿{num1} es diferente de {num2}?") #comparamos si los resultados de num1 y num2 son diferentes lo cual es (False) son iguales
 print(mi_bool)
 
+#Operadores logicos
+
 num1 = 36
 num2 = 72/2
 num3 = 48
-mi_bool = num1>num2<num3 #Verificamos si el valor de (num1) es mayor que (num2) y menor que (num3)
-print(mi_bool) #False (num1) es igual a (num2) y menor que (num3). Como una sentencia no se cumple cuenta como false
+mi_bool = num1>num2 and num1 < num3 #Verificamos si el valor de (num1) es mayor que (num2) (and) y menor que (num3)
+print(mi_bool) #False (num1) es igual a (num2) no mayor, pero si es menor que (num3). Como una sentencia no se cumple cuenta como false
+
+num1 = 36
+num2 = 72/2
+num3 = 48
+mi_bool = num1 > num2 or num1 < num3 #El operador (or) dice si (num1) es mayorque num2 o (num1) es menor que (num3)
+print(mi_bool) #Lo cual solo se necesita cumplir una sentencia para que sea verdadero
