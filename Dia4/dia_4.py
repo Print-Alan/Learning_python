@@ -29,3 +29,9 @@ num2 = 72/2
 num3 = 48
 mi_bool = num1 > num2 or num1 < num3 #El operador (or) dice si (num1) es mayorque num2 o (num1) es menor que (num3)
 print(mi_bool) #Lo cual solo se necesita cumplir una sentencia para que sea verdadero
+
+frase = "Cuando algo es lo suficientemente importante, lo haces incluso si las probabilidades de que salga bien no te acompañan"
+palabra1 = "éxito"
+palabra2 = "tecnología"
+mi_bool = "exito" and "tecnología" not in frase #El operador (and) los usamos para que se cumplan dos sentencias. (Not in) no estan en. 
+print(mi_bool) #Le estamos diciendo si "exito" y "texnologia" no estan en frase lo cual es cierto (True)
