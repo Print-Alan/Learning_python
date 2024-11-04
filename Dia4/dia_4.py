@@ -59,3 +59,15 @@ elif edad < 18 and not tiene_licencia is True: #Si (edad) es menor a 18 y (and) 
 else: # Si no se cumple ninguna imprime la el sig code
     print("No puedes conducir. Necesitas contar con una licencia")
 
+habla_ingles = True
+sabe_python = False
+
+if habla_ingles is True and sabe_python is True: #Ya sabes lo que dice y se te olvida toma de nuevo la clase
+    print("Cumples con los requisitos para postularte")
+elif habla_ingles is False and sabe_python is False:
+    print("Para postularte, necesitas saber programar en Python y tener conocimientos de inglés")
+elif habla_ingles is False and sabe_python is True:
+    print("Para postularte, necesitas tener conocimientos de inglés")
+else:
+    print("Para postularte, necesitas saber programar en Python")
+
