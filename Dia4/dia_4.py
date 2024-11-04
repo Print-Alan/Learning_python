@@ -49,3 +49,13 @@ elif num2 > num1: #Le dicimos si (elif) (num2) es mayor a (num1) imprime la sig 
 else: #Si no (else) se cumplen ninguna de las anteriores imprime la sig linea
     print("{num1} y {num2} son iguales")
 
+edad = 16
+tiene_licencia = False
+
+if edad >= 18 and tiene_licencia is True: #Si (if) su (edad) es mayor o igual a (18) y (tiene_licencia) (is) es (True) cierto imprime la sig linea
+    print("Puedes conducir")
+elif edad < 18 and not tiene_licencia is True: #Si (edad) es menor a 18 y (and) no (not) (tiene:licencia) es (is) (True) cierto imprime la sig linea
+    print("No puedes conducir aún. Debes tener 18 años y contar con una licencia")
+else: # Si no se cumple ninguna imprime la el sig code
+    print("No puedes conducir. Necesitas contar con una licencia")
+
