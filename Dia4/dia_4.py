@@ -87,3 +87,10 @@ for letra in Lista: #Por cada (For) (letra)letra es el nombre asignado a cada it
 alumnos_clase = ["María", "José", "Carlos", "Martina", "Isabel", "Tomás", "Daniela"] #Tenemos una lista con sus items
 for alumnos in alumnos_clase:  #Por cada ((alumno)es el nombre asignado por cada item) en (in) el nombre de la lista (alumnos_clase)
     print(f"Hola {alumnos}") #Imprime hola + el nombre de cada alumno (alumnos)
+
+lista_numeros = [1,5,8,7,6,8,2,5,2,6,4,8,5,9,8,3,5,4,2,5,6,4] #Lista de numero
+suma_numeros = 0 
+for numero in lista_numeros: #Por cada (for) (numero) en (in) (lista_numeros)
+    suma_numeros = suma_numeros + numero # 0 (suma_numeros) sera igual a 0 + cada (numero)
+    print(suma_numeros) #imprime el resultado de cada numero sumado
+
