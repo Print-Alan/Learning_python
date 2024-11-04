@@ -71,3 +71,19 @@ elif habla_ingles is False and sabe_python is True:
 else:
     print("Para postularte, necesitas saber programar en Python")
 
+#Introduccion a Loops
+#Los Loops son bucles que hace que algo se ejecute mas de una vez o que vuelva a sucerder una y otra vez. Por ejemplo el uso del loop en canciones.
+#Tambien puedes hacer un loop que se repita una cantidad indefinida de veces hasta que se cumpla una condicion.
+    #Por ejemplo el disparar en un juego que dispara hasta que se cumpla cierta condicion llamada balas igual a 0
+#Elconcepto Iterable se relaciona con los loop, es decir que puedes iterar (repasar) sus elementos de 1 en 1, por ejemplo una lista que repasaria sus elemetos de 1 en 1
+
+#Existen dos tipos de Loop: 1:Loop for (Los que se repiten una cantidad definida de iteraciones)   2:Loop while (Y los que se repiten una cantidad indefinida de veces (infinito))
+
+#Loop for
+Lista = ["a","b","c"]
+for letra in Lista: #Por cada (For) (letra)letra es el nombre asignado a cada iteración en (in) Lista (Lista)
+    print(letra) #Imprime las letras
+
+alumnos_clase = ["María", "José", "Carlos", "Martina", "Isabel", "Tomás", "Daniela"] #Tenemos una lista con sus items
+for alumnos in alumnos_clase:  #Por cada ((alumno)es el nombre asignado por cada item) en (in) el nombre de la lista (alumnos_clase)
+    print(f"Hola {alumnos}") #Imprime hola + el nombre de cada alumno (alumnos)
