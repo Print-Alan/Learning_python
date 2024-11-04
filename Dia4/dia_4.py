@@ -35,3 +35,17 @@ palabra1 = "éxito"
 palabra2 = "tecnología"
 mi_bool = "exito" and "tecnología" not in frase #El operador (and) los usamos para que se cumplan dos sentencias. (Not in) no estan en. 
 print(mi_bool) #Le estamos diciendo si "exito" y "texnologia" no estan en frase lo cual es cierto (True)
+
+#Control de flujo
+#Segun se cumpla una condicion o no python ejecute un codigo o otro
+
+num1 = int(input("Ingresa un número:")) #Pedimos numero
+num2 = int(input("Ingresa otro número:")) #Pedimos numero
+
+if num1 > num2: #Le decimos si (if) (num1) es mayor a (num2) imprime el siguiente codigo
+    print(f"{num1} es mayor que {num2}")
+elif num2 > num1: #Le dicimos si (elif) (num2) es mayor a (num1) imprime la sig linea
+    print(f"{num2} es mayor que {num1}")
+else: #Si no (else) se cumplen ninguna de las anteriores imprime la sig linea
+    print("{num1} y {num2} son iguales")
+
