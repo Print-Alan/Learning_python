@@ -129,3 +129,8 @@ for num in lista_numeros: #(for) Por cada (num) (in) (lista_numeros)
         continue #Excluyelo, pasa de este
     print(num)   #imprime
 
+#Rango (Range)
+#Es una fucion que te permite establecer un rango de caracteres o items sin la necesdad de crear listas o variables multiples veces
+
+mi_lista = list(range(2500,2586)) #Lista (list) con un Rango (range) de 2500 a 2585 numeros 
+print(mi_lista) 
