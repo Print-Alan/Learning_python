@@ -115,3 +115,11 @@ while numero >= 0: #Mientras (while) 10 (numero) sea mayor a (0)
     print(numero) #Imprime desde el 10
     numero = numero - 1 #Iras restando a (numero) -1 hasta llegar a cero
 
+numero = 50
+while numero >= 0: #Mientras numero sea mayor o igual a 0 imprime
+    if numero % 5 == 0: #si el numero es modulo de 5 y igual a 0
+        print(numero) #imprime numero
+        numero -=1    #numero -1 hasta llegar a 0
+    else:             #Si no ejecuta el sig code
+        numero -=1    #Le vas restando a num 1
+
