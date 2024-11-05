@@ -94,3 +94,14 @@ for numero in lista_numeros: #Por cada (for) (numero) en (in) (lista_numeros)
     suma_numeros = suma_numeros + numero # 0 (suma_numeros) sera igual a 0 + cada (numero)
     print(suma_numeros) #imprime el resultado de cada numero sumado
 
+lista_numeros = [1,5,8,7,6,8,2,5,2,6,4,8,5,9,8,3,5,4,2,5,6,4]
+suma_pares = 0
+suma_impares = 0
+for num in lista_numeros: #Por cada integer (num) in (lista_numeros)
+    if num % 2 == 0: #Si (if) (num) al modulo de 2 es igual a 0
+        suma_pares = suma_pares + num #ejecuta suma pares + (num)
+        print(suma_pares) #He imprime
+    elif num % 2 == 1: #(elif) si no (num) al modulo de dos es igual a 1
+        suma_impares = suma_impares + num #Ejecuta (suma_impares) + num
+        print(suma_impares) #imprime
+
