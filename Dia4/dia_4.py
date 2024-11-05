@@ -123,3 +123,9 @@ while numero >= 0: #Mientras numero sea mayor o igual a 0 imprime
     else:             #Si no ejecuta el sig code
         numero -=1    #Le vas restando a num 1
 
+lista_numeros = [4,5,8,7,6,9,8,2,4,5,7,1,9,5,6,-1,-5,-6,-6,-4,-3]
+for num in lista_numeros: #(for) Por cada (num) (in) (lista_numeros)
+    if num <=0:  #Si (if) (num) es menor o igual a (0)
+        continue #Excluyelo, pasa de este
+    print(num)   #imprime
+
