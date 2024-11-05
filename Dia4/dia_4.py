@@ -134,3 +134,7 @@ for num in lista_numeros: #(for) Por cada (num) (in) (lista_numeros)
 
 mi_lista = list(range(2500,2586)) #Lista (list) con un Rango (range) de 2500 a 2585 numeros 
 print(mi_lista) 
+
+mi_lista = list(range(3,301,3)) #Creamos una lista con un rango del 3 al 300 la cual esta formada por multiplos de 3
+print(mi_lista)
+
