@@ -138,3 +138,8 @@ print(mi_lista)
 mi_lista = list(range(3,301,3)) #Creamos una lista con un rango del 3 al 300 la cual esta formada por multiplos de 3
 print(mi_lista)
 
+suma_cuadrados =0
+for num in range(1,16): #Por (for) cada (num) (in) (range 1,15)
+    suma_cuadrados += num ** 2 #Haras una suma de num elevado a la 2
+    print(suma_cuadrados)
+
