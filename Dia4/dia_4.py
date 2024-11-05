@@ -105,3 +105,13 @@ for num in lista_numeros: #Por cada integer (num) in (lista_numeros)
         suma_impares = suma_impares + num #Ejecuta (suma_impares) + num
         print(suma_impares) #imprime
 
+#Loop while
+#Los loop while se repiten mientras (while) se cumpla un condicion.
+#Por ejemplo en un juego que cuando el jugador muere puede revivir mientras tiene una cantidad de vidas mayor a 0
+#Debes tener cuidado, por que si no estableces expresamente de que deje de cumplirse la condicion por ejecurse infinitamente
+
+numero = 10
+while numero >= 0: #Mientras (while) 10 (numero) sea mayor a (0)
+    print(numero) #Imprime desde el 10
+    numero = numero - 1 #Iras restando a (numero) -1 hasta llegar a cero
+
