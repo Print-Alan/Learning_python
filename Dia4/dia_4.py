@@ -155,3 +155,8 @@ for num,nom in list(enumerate("Python")): #Por cada num,nom in list(enumera("Pyt
     lista_indices.append((num,nom)) #Añade a lista de indices num, nom
 print(lista_indices)
 
+lista_nombres = ["Marcos", "Laura", "Mónica", "Javier", "Celina", "Marta", "Darío", "Emiliano", "Melisa"]
+for indice,name in enumerate(lista_nombres): #Por cada (for) numero de indice (indice), valor (name) en (in) enumerado (enumerate) (lista_nombres)
+    if name.startswith("M"): #si (if) (name) inicia (.startswith("M")) con M 
+        print(indice) #imprime el numero del indice
+
