@@ -169,3 +169,6 @@ x = list(zip(capitales,paises)) #Guarda e x una (list) que una dos o mas listas 
 for capi,pais in x: #Por cada (for) capital(capi), pais (pais) en (in) x
     print(f"La capital de {pais} es {capi}")
 
+marcas = ["Gucci","Sait lorean","Hermes","All-Nasar"]
+productos = ["Osito gominola","Botas","Oro","Al bicho siuuuu"]
+mi_zip = zip(marcas,productos) #Creamos un objeto zip formado por listas
