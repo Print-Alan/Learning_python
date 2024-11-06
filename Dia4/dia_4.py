@@ -179,3 +179,23 @@ ingles = ["one", "two", "three", "four", "five"]
 numeros = list(zip(espaniol,portugues,ingles)) #Lo mismo que el primer ejercicio de Zip
 print(numeros)
 
+#Min y Max 
+#Sirve para detectar los valores mas altos y mas bajos en una coleccion (Desordenada o ordenada) funciona con: valores numericos y alfabeticos
+
+#Manera 1
+menor = min(58,96,72,64,35) #El minimo de esta serie de numeros guardalo en menor
+mayor = max(58,96,72,64,35) #El maximo de esta serie de numeros guardalo en mayor
+print(menor,mayor) 
+#Manera 2
+lista = [58,96,72,64,35]
+print(max(lista)) #impreime el maximo de la siguente lista
+print(f"El menor es {min(lista)} y el mayor es {max(lista)}") #Otra manera es esta
+#Manera 3
+nombres = ["juan","pablo","alicia","carlos"]
+print(min(nombres)) #Imprime el caracter que va primero en el abecedario de la lista nombres(Min y max:Buscan primero en las mayusculas y despues en las minusculas)
+nombre1 = "carlOs" #Busca primero en las mayusculas y despues en las minsculas. Si quieres que busque la letra sin confusiones utiliza e metodo .lower()
+print(min(nombre1.lower())) #asi transformara el dato a minuscula y podras ubicarlo mejor 
+#Manera 4
+dic = {"c1":45,"c2":11} #Diccionario
+print(min(dic)) #En los diccionarios imprime la clave menor
+print(min(dic.values())) #Si quieres el valor utiliza el metodo .values()
