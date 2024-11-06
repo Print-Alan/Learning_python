@@ -245,3 +245,7 @@ from random import randint
 aleatorio = randint(1,10) #random interger del 1 to 10
 print(aleatorio)
 
+from random import random
+aleatorio = round(random(),1) #numero decimal del cero al uno con un decimal
+print(aleatorio)
+
