@@ -241,3 +241,7 @@ numeros1 = list(range(5,51,5))
 shuffle(numeros1) #Hace una mezcla aleatoria de tu lista. El metodo shuffle no se puede almacenar en una lista, ni tampoco con strings
 print(numeros1)
 
+from random import randint
+aleatorio = randint(1,10) #random interger del 1 to 10
+print(aleatorio)
+
