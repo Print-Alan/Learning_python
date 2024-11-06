@@ -209,3 +209,9 @@ lista_numeros = [44542247, 21310, 2134747, 44556475, 121676, 6654067, 353254, 12
 rango = max(lista_numeros) - min(lista_numeros) #El valor maximo restale el valor minimo y guardo el la variable rango
 print(rango)
 
+diccionario_edades = {"Carlos":55, "María":42, "Mabel":78, "José":44, "Lucas":24, "Rocío":35, "Sebastián":19, "Catalina":2,"Darío":49}
+edad_minima = min(diccionario_edades.values()) #El valor minimo del diccionario 
+ultimo_nombre =max(diccionario_edades) #La clave mayor del diccionario
+print(edad_minima)
+print(ultimo_nombre.lower()) #imprime la clave mayor minuscula de el diccionario
+
