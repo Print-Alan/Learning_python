@@ -150,3 +150,8 @@ lista_nombres = ["Marcos", "Laura", "Mónica", "Javier", "Celina", "Marta", "Dar
 for numero, nombre in enumerate(lista_nombres): #Por cada (numero), (nombre) en (in) (enumerate: Es una funcion que hace mas facil acceder a los indices) que contendra (lista_nombres)
     print(f'{nombre} se encuentra en el índice {numero}') #imprime (nombre) se ecuentra en el indice (numero)
 
+lista_indices = [] #Creamos una lista
+for num,nom in list(enumerate("Python")): #Por cada num,nom in list(enumera("Python"))
+    lista_indices.append((num,nom)) #Añade a lista de indices num, nom
+print(lista_indices)
+
