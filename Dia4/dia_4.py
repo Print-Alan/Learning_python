@@ -199,3 +199,9 @@ print(min(nombre1.lower())) #asi transformara el dato a minuscula y podras ubica
 dic = {"c1":45,"c2":11} #Diccionario
 print(min(dic)) #En los diccionarios imprime la clave menor
 print(min(dic.values())) #Si quieres el valor utiliza el metodo .values()
+
+
+lista_numeros = [44542247/2, 21310/5, 2134747*33, 44556475, 121676, 6654067, 353254, 123134, 55**12, 611**5]
+valor_maximo = max(lista_numeros) #el valor maximo de lista de numeros guandalo en valor_maximo
+print(valor_maximo)
+
