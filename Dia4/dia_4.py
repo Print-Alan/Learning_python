@@ -172,3 +172,10 @@ for capi,pais in x: #Por cada (for) capital(capi), pais (pais) en (in) x
 marcas = ["Gucci","Sait lorean","Hermes","All-Nasar"]
 productos = ["Osito gominola","Botas","Oro","Al bicho siuuuu"]
 mi_zip = zip(marcas,productos) #Creamos un objeto zip formado por listas
+
+espaniol = ["uno", "dos", "tres", "cuatro", "cinco"]
+portugues = ["um", "dois", "três", "quatro", "cinco"]
+ingles = ["one", "two", "three", "four", "five"]
+numeros = list(zip(espaniol,portugues,ingles)) #Lo mismo que el primer ejercicio de Zip
+print(numeros)
+
