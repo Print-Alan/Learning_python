@@ -215,3 +215,29 @@ ultimo_nombre =max(diccionario_edades) #La clave mayor del diccionario
 print(edad_minima)
 print(ultimo_nombre.lower()) #imprime la clave mayor minuscula de el diccionario
 
+#Random
+#El metodo randint(): Sirve para generar numeros enteros aleatorios
+#randint() pertenece a una libreria llamada Random y para importar el metodo se usa: from (random) import (randint), (desde (libreria) importa (metodo))
+#Si vas importar muchos elementos de una misma libreria remplaza el metodo por un asterisco: from (random) import *
+
+#randint
+from random import randint # De (from) la libreria (random) importa (randint). Al importar librerias es importante que tu archivo .py no tenga el mismo nombre de las librerias que vas a importar
+aleatorio = randint(1,50) #Una vez importada la libreria random int (randint) del 1 al 50, escogera un numero random
+print(aleatorio)
+#uniform
+from random import * #Con el (*) estamos inportando todos los contenidos de la libreria random
+aleatorio1 = round(uniform(1,5),1) #Uniform da un numero aleatorio de tipo float. Con el metodo (round) redondeamos es cantidad y añade 1 numero decimal (float)
+print(aleatorio1)
+#Random
+#Ya importamos los contenidos de la libreria en la linea anterior
+aleatorio2 = random() #Te devuelve el tipo de dato float del 0 al 1
+print(aleatorio2)
+#Choice
+colores = ["azul","rojo","verde","amarillo"]
+aleatorio3 =choice(colores) #Choice te elige un elemento aleatoria en la lista de colores
+print(aleatorio3)
+#shuffle
+numeros1 = list(range(5,51,5))
+shuffle(numeros1) #Hace una mezcla aleatoria de tu lista. El metodo shuffle no se puede almacenar en una lista, ni tampoco con strings
+print(numeros1)
+
