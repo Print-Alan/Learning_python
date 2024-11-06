@@ -160,3 +160,12 @@ for indice,name in enumerate(lista_nombres): #Por cada (for) numero de indice (i
     if name.startswith("M"): #si (if) (name) inicia (.startswith("M")) con M 
         print(indice) #imprime el numero del indice
 
+#Zip
+#Zip combina dos o mas listas entrelazando sus elementos en tuples
+
+capitales = ["Berlín", "Tokio", "París", "Helsinki", "Ottawa", "Canberra"]
+paises = ["Alemania", "Japón", "Francia", "Finlandia", "Canadá", "Australia"]
+x = list(zip(capitales,paises)) #Guarda e x una (list) que una dos o mas listas (zip) : (capitales y paises)
+for capi,pais in x: #Por cada (for) capital(capi), pais (pais) en (in) x
+    print(f"La capital de {pais} es {capi}")
+
