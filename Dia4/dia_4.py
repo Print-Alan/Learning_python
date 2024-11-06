@@ -249,3 +249,8 @@ from random import random
 aleatorio = round(random(),1) #numero decimal del cero al uno con un decimal
 print(aleatorio)
 
+from random import choice
+nombres = ["Carlos", "Julia", "Nicole", "Laura", "Mailen"]
+sorteo = choice(nombres) #Elige un nombre al azar de la lista nombres
+print(sorteo)
+
