@@ -143,3 +143,10 @@ for num in range(1,16): #Por (for) cada (num) (in) (range 1,15)
     suma_cuadrados += num ** 2 #Haras una suma de num elevado a la 2
     print(suma_cuadrados)
 
+#Enumerador
+#Enumerate sirve para acceder a los indices de una colecccion mas facilmente
+
+lista_nombres = ["Marcos", "Laura", "Mónica", "Javier", "Celina", "Marta", "Darío", "Emiliano", "Melisa"] #Lista
+for numero, nombre in enumerate(lista_nombres): #Por cada (numero), (nombre) en (in) (enumerate: Es una funcion que hace mas facil acceder a los indices) que contendra (lista_nombres)
+    print(f'{nombre} se encuentra en el índice {numero}') #imprime (nombre) se ecuentra en el indice (numero)
+
