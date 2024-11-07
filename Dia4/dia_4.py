@@ -284,3 +284,44 @@ temperatura_fahrenheit = [32, 212, 275]
 grados_celsius = [(num - 32) * (5/9) for num in temperatura_fahrenheit] #Siuuuuu
 print(grados_celsius)
 
+#Match
+#Match (coincidencia) Te permite implemetar que tu codigo haga algo dependieno de un patron
+
+#Logica de coincidencia antigua
+serie = "N-02"
+if serie == "N-01":
+    print("Samsung")
+elif serie == "N-02":
+    print("Nokia")
+elif serie == "N-03":
+    print("Motorola")
+else:
+    print("No exite ese producto")
+ 
+#Logica actual
+serie = "N-02"
+match serie: #Busca tu dato mas facilmente
+        case "N-01":
+            print("Samsung")
+        case "N-02":
+            print("Nokia")
+        case "N-03":
+            print("Motorola")
+        case _:
+            print("No exite ese producto")
+
+#Match potencial  
+cliente = {"nombre":"Federico","edad":45,"ocupacion":"instructor"}
+pelicula = {"titulo":"Matrix","ficha_tecnica":{"Protagonista":"keaunu reeves","director":"Lana y Lilly wachowiki"}}
+elementos = [cliente, pelicula, "libro"]
+
+for e in elementos: #Por cada (e) que haya en elementos
+    match e: #Busca una coincidencia en (e)
+        case {"nombre":nombre,"edad":edad,"ocupacion":ocupacion}: #En caso de que coincida va a imprimir el sig code
+            print(nombre,edad,ocupacion)
+        case {"titulo":titulo,"ficha_tecnica":{"protagonista": protagonista,"director": director}}: #En caso de que coincida va a imprimir el sig code
+            print("Esto es una pelicula")
+            print(titulo,protagonista,director)
+        case _: #En en caso de que no coincida con ninguna va a imprimir esto
+            print("No se que es esto")
+#Al detectar pratrones lo hace interesante para algunos proyectos
