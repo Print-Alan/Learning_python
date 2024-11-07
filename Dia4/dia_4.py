@@ -280,3 +280,7 @@ valores = [1, 2, 3, 4, 5, 6, 9.5]
 valores_pares = [num for num in valores if num % 2 == 0] #Si solo vas a ocupar (if) esta es la manera de usarlo
 print(valores_pares)
 
+temperatura_fahrenheit = [32, 212, 275]
+grados_celsius = [(num - 32) * (5/9) for num in temperatura_fahrenheit] #Siuuuuu
+print(grados_celsius)
+
