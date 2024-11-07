@@ -254,3 +254,18 @@ nombres = ["Carlos", "Julia", "Nicole", "Laura", "Mailen"]
 sorteo = choice(nombres) #Elige un nombre al azar de la lista nombres
 print(sorteo)
 
+#Comprensión de listas
+#Es una manera dinamica de construir listas. Si tienes que construir una lista atraves de un loop que pasa varias veces por un append, te ayudara
+
+#Manera comun
+palabra3 = "python"
+lista1 = []
+for letra in palabra3: #Por cada letra en palabra3
+    lista1.append(letra) #En una lista agrega cada letra
+print(letra)
+
+#manera de comprension
+palabra3 = "python"
+lista1 = [letra for letra in palabra3] #Manera de comprension
+print(letra)
+
