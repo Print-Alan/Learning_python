@@ -269,3 +269,7 @@ palabra3 = "python"
 lista1 = [letra for letra in palabra3] #Manera de comprension
 print(letra)
 
+valores = [1, 2, 3, 4, 5, 6, 9.5]
+valores_cuadrado = [num**2 for num in valores] #Numero elevado al cuadrado por cada num in valores
+print(valores_cuadrado)
+
