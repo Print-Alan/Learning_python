@@ -269,7 +269,14 @@ palabra3 = "python"
 lista1 = [letra for letra in palabra3] #Manera de comprension
 print(letra)
 
+lista2 = [n for n in range(0,21,2) if n * 2 > 10]
+print(lista2)
+
 valores = [1, 2, 3, 4, 5, 6, 9.5]
 valores_cuadrado = [num**2 for num in valores] #Numero elevado al cuadrado por cada num in valores
 print(valores_cuadrado)
+
+valores = [1, 2, 3, 4, 5, 6, 9.5]
+valores_pares = [num for num in valores if num % 2 == 0] #Si solo vas a ocupar (if) esta es la manera de usarlo
+print(valores_pares)
 
