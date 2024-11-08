@@ -81,3 +81,10 @@ def usd_a_eur(dolares):
 dolares = 1 
 usd_a_eur(dolares) #Invocamos usd_a_eur
 
+def invertir_palabra(palabra):
+    inver = palabra[::-1].upper()
+    print(inver)
+    return inver
+palabra ="Curso"
+invertir_palabra(palabra)
+
