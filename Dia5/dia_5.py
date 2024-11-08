@@ -44,10 +44,13 @@ def saludo_hola ():
     Esta funcion sirve para saludar
     """
     print("hola")
-
-saludo_hola() #E jecuta la funcion saludo_hola
+saludo_hola() #Ejecuta la funcion saludo_hola
 
 def saludar(): #Define la funcion (def) (saludar)
     print("¡Hola mundo!") #Que cada que se invoque imprima el code
 saludar() #Invocar saludar()
+
+def bienvenida1(name1):
+    print(f"¡Bienvenido {name1}!")
+nombre_persona1 = "Jose"
 
