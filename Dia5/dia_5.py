@@ -73,3 +73,11 @@ def potencia(num1,ex):
     return resu
 num1 = 5
 ex = 2
+
+def usd_a_eur(dolares):
+    conversi = dolares * 0.90
+    print(f"Tienes {conversi} euros") #No se suele usar el (print) en los return
+    return conversi #Guardo (conversi)
+dolares = 1 
+usd_a_eur(dolares) #Invocamos usd_a_eur
+
