@@ -1,4 +1,4 @@
-#Metodos
+#Metodos,ayuda y documentacion
 # Los metodos son funciones pertenecientes a los objetos que permiten manipularlos, analizarlos o ejecutar acciones
 #Por ejemplo "Hola".lower(), "Hola".index()
 """
@@ -25,4 +25,25 @@ marcas_smartphones = {"Samsung", "Xiaomi", "Apple", "Huawei", "LG"}
 marcas_tv = {"Sony", "Philips", "Samsung", "LG"}
 conjuntos_aislados = marcas_smartphones.isdisjoint(marcas_tv) #Verifica si en los dos sets no hay conjuntos iguales: si no hay te dara:True. Si hay conjuntos iguales:False
 print(conjuntos_aislados)
+
+
+#Funciones
+#Los metodos son funciones que fueron desarrolladas por los creadores de python y incorporadas a los objetos
+#Pero tambien podemos crear metodos propios, para que no tengamos que escribir el codigo entero
+
+#Crear funciones
+#Para crear funciones se necesita de una sintaxis precisa
+#Para es se usa : 
+#Def mi_funcion ():
+"""Esta funcion se encarga
+    de esto y esto"""
+    #(Codigo)
+#Ejemplo:
+def saludo_hola ():
+    """
+    Esta funcion sirve para saludar
+    """
+    print("hola")
+
+saludo_hola() #E jecuta la funcion saludo_hola
 
