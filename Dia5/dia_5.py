@@ -47,3 +47,7 @@ def saludo_hola ():
 
 saludo_hola() #E jecuta la funcion saludo_hola
 
+def saludar(): #Define la funcion (def) (saludar)
+    print("¡Hola mundo!") #Que cada que se invoque imprima el code
+saludar() #Invocar saludar()
+
