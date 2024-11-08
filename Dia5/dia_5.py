@@ -68,3 +68,8 @@ def multi(num1,num2):
     total = num1 * num2 #Return lo guarda para que puedas trabajar despues 
     return  total #Lo que se suele hacer es almacenarla en una variable
 
+def potencia(num1,ex):
+    resu = num1 ** ex
+    return resu
+num1 = 5
+ex = 2
