@@ -54,3 +54,7 @@ def bienvenida1(name1):
     print(f"¡Bienvenido {name1}!")
 nombre_persona1 = "Jose"
 
+def cuadrado(un_numero):
+    print(un_numero **2) #Playing to be something more than gods
+un_numero = 5
+
