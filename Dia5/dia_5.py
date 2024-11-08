@@ -19,3 +19,10 @@ frutas = ["mango", "banana", "cereza", "ciruela", "pomelo"]
 n = frutas.insert(3,"naranja") #primero se coloca la posicion y despues tu item
 print(frutas)
 
+#isdisjoint
+#Se utiliza para determinar si dos conjuntos son disjuntos, es decir, si no tienen elementos en común. Devuelve True si no tienen elementos en común y False en caso contrario.
+marcas_smartphones = {"Samsung", "Xiaomi", "Apple", "Huawei", "LG"}
+marcas_tv = {"Sony", "Philips", "Samsung", "LG"}
+conjuntos_aislados = marcas_smartphones.isdisjoint(marcas_tv) #Verifica si en los dos sets no hay conjuntos iguales: si no hay te dara:True. Si hay conjuntos iguales:False
+print(conjuntos_aislados)
+
