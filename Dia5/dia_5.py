@@ -58,3 +58,13 @@ def cuadrado(un_numero):
     print(un_numero **2) #Playing to be something more than gods
 un_numero = 5
 
+
+#Return
+#Lo que hace es devolver el resultado de la funcion y puedes almacenarlo en una variable
+def ejem(nombre):
+    return "Hola "+ nombre #Return te devuelve el valor y lo puedes almacenar en una variable
+
+def multi(num1,num2):
+    total = num1 * num2 #Return lo guarda para que puedas trabajar despues 
+    return  total #Lo que se suele hacer es almacenarla en una variable
+
