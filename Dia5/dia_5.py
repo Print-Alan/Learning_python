@@ -141,3 +141,18 @@ def cantidad_pares(lista_numeros):
     return cantidad
 cantidad_pares(lista_numeros)
 
+#Ejemplo de funcion:
+precios_cafe = [("capichino",1.5),("Expreso",1.2)]
+
+def cafeo_mas_caro(precios_cafe):
+    precio_mayor = 0
+    cafe_nombre = ""
+    for cafe,precio in precios_cafe:
+        if precio > precio_mayor:
+            precio_mayor = precio
+            cafe_nombre = cafe
+        else: pass
+    return (cafe_nombre,precio_mayor)
+print(cafeo_mas_caro(precios_cafe))
+cafeo_mas_caro(precios_cafe)
+
