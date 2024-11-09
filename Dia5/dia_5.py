@@ -117,3 +117,15 @@ def todos_positivos(lista_numeros): #Creamos la funcion (todos_positivos) que tr
     else:                        #De lo contrario
         return True              #Devuelve True
 
+lista_numeros = [1,50,500,5000,750]
+def suma_menores(lista_numeros): #definimos una funcion que opera con lista_numeros
+    suma = 0
+    for numero in lista_numeros: #Por cada numero en lista
+        if numero > 0 and numero < 1000: #Si numero es mayor a 0 y menor a 1000
+            suma += numero              #Suma los numeros
+            print(suma)                 #He imprime
+        else:                           #Si no entra en los parametros del if
+            pass                        #Pasa de ese numero
+    return suma                         #Y regresa a suma
+suma_menores(lista_numeros)             #Invcamos a suma_menores
+
