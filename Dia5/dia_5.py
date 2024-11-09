@@ -88,3 +88,24 @@ def invertir_palabra(palabra):
 palabra ="Curso"
 invertir_palabra(palabra)
 
+
+#Funciones dinamicas
+
+#Ejemplo:
+def check_3_cifras(numero):
+    return numero in range(100,1001)
+resultado1 = check_3_cifras(65)
+print(resultado1)
+
+#otro un poco mas complejo
+def rango_3_cifras(lista):
+    for n in lista:
+        if n in range(100,1001):
+            return True
+        else:
+            pass
+    return False
+
+resultado2 = rango_3_cifras([555,99,6000])
+print(resultado2)
+
