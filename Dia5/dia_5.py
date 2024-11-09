@@ -109,3 +109,11 @@ def rango_3_cifras(lista):
 resultado2 = rango_3_cifras([555,99,6000])
 print(resultado2)
 
+lista_numeros = [3,5,6,-50,-500] #Definimos una lista de numeros
+def todos_positivos(lista_numeros): #Creamos la funcion (todos_positivos) que trabaja con (lista_numeros)
+    for numero in lista_numeros: #Le decimos que por cada numero in lista_numeros
+        if numero < 0:           #Si numero es menor a 0
+            return False         #Devuelve False
+    else:                        #De lo contrario
+        return True              #Devuelve True
+
