@@ -129,3 +129,15 @@ def suma_menores(lista_numeros): #definimos una funcion que opera con lista_nume
     return suma                         #Y regresa a suma
 suma_menores(lista_numeros)             #Invcamos a suma_menores
 
+lista_numeros = [1,50,502,5000,755,600,33,61]
+def cantidad_pares(lista_numeros):
+    cantidad = 0
+    for numero in lista_numeros:
+        if numero % 2 == 0:
+            cantidad += 1
+            print(f"Cantidad de números pares: {cantidad}")
+        else:
+            pass
+    return cantidad
+cantidad_pares(lista_numeros)
+
