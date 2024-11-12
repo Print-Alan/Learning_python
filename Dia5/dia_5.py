@@ -239,3 +239,10 @@ Resultado_moneda=lanzar_moneda()        #El resultado de lanzar_moneda() guardal
 peru = probar_suerte(Resultado_moneda,lista_numeros)    #Probar_suerte() Operara con el Resultado_moneda y la lista_numeros
 print(Resultado_moneda,peru) #Imprime ambos
 
+#Argumentos indefenidos (*args **kwargs)
+#*Args (Arguments) Te permite definir funciones cuyo numero de argumentos sea variable
+#Ejemplo:
+def suma(*args): #*Args es god
+    return sum(args)
+
+print(suma(5,6,4))
