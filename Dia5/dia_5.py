@@ -256,3 +256,10 @@ def suma_cuadrados(*args):
     return suma
 print(suma_cuadrados(1,2,3))
 
+def suma_absolutos(*args):
+    suma = 0
+    for item in args:
+        suma += abs(item) #La funcion abs() convierte todos los valores negativos en positivos
+    return suma
+print(suma_absolutos(1,2,3,-1))
+
