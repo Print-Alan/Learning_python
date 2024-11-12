@@ -218,3 +218,24 @@ def promedio(lista):         #Creamos la funcion promedio que opere con lista
     calcular_promedio = sum(lista)/len(lista)   #Sumara todos los valores de lista y los dividira por el cuantos sean
     return calcular_promedio
 
+from random import choice #De la biblioteca (random) importa (Choice)
+lista_numeros = [1,2,3,4,5,6,7] #Lista de num
+
+def lanzar_moneda ():       #Creamos la funcion (lanzar_monedas())
+    moneda_mia = ["Cruz","Cara"]    #Creamos una lista dentro de lanzar_monedas()
+    return choice(moneda_mia)       #Elige un valor de moneda mia y regresalo
+
+def probar_suerte(Rmoneda,listaNum):    #Crreamos la funcion probar_suerte(Rmoneda,listNum) Que opera con 2 valores
+    if Rmoneda == "Cara":               #Si Rmoneda es igual a Cara
+        print("La lista se autodestruirá")  #Imprime esto
+        listaNum.clear() #Elimina la lista
+        return listaNum  #Regresa la lista vacia
+    
+    else:                               #Si no se cumple lo anterior
+        print("La lista fue salvada")   #Imprime esto
+        return listaNum                 #Y regresa la lista
+
+Resultado_moneda=lanzar_moneda()        #El resultado de lanzar_moneda() guardalo en Resultado_moneda
+peru = probar_suerte(Resultado_moneda,lista_numeros)    #Probar_suerte() Operara con el Resultado_moneda y la lista_numeros
+print(Resultado_moneda,peru) #Imprime ambos
+
