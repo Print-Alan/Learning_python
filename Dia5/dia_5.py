@@ -205,3 +205,16 @@ def evaluar_jugada(dado1, dado2):
 resultado1, resultado2 = lanzar_dados()
 mensaje = evaluar_jugada(resultado1, resultado2)
 print(mensaje)
+
+lista_numeros = [1,2,15,7,2,8] #creamos una lista
+
+def reducir_lista(lista): #Creamos una funcion que opere con lista
+    lista = list(set(lista)) #A la lista la a transformar en un set para eliminar los duplicados y luego a lista
+    lista.sort()             #A la lista la va a ordenar de menor a mayor
+    lista.pop(-1)            #Eliminara el numero que se encuntre al final (mayor)
+    return lista             #Regrese lista
+    
+def promedio(lista):         #Creamos la funcion promedio que opere con lista
+    calcular_promedio = sum(lista)/len(lista)   #Sumara todos los valores de lista y los dividira por el cuantos sean
+    return calcular_promedio
+
