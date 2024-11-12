@@ -246,3 +246,13 @@ def suma(*args): #*Args es god
     return sum(args)
 
 print(suma(5,6,4))
+
+
+def suma_cuadrados(*args):
+    suma = 0
+    for item in args:
+        item = item**2
+        suma += item
+    return suma
+print(suma_cuadrados(1,2,3))
+
