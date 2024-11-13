@@ -263,3 +263,10 @@ def suma_absolutos(*args):
     return suma
 print(suma_absolutos(1,2,3,-1))
 
+def numeros_persona(nombre,*args_num):
+    suma_numeros = 0
+    for num in args_num:
+        suma_numeros += num
+    return f"{nombre}, la suma de tus números es {suma_numeros}"
+print(numeros_persona("Alan",1,2,3))
+
