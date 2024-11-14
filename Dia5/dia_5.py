@@ -287,3 +287,9 @@ def cantidad_atributos(**kwargs):
 kwarg = {'color_ojos': 'azules', 'color_pelo':'rubio'} 
 cantidad_atributos(**kwarg)
 
+dic = {'color_ojos':'azules','color_pelo':'rubio'}
+def lista_atributos(**keywords):
+    return list(keywords.values()) #Values te dira los valores de cada clave y en forma de lista
+    
+print(lista_atributos(**dic))
+
