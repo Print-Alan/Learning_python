@@ -16,3 +16,11 @@ def elnombre(name):
     return name
 print(elnombre("entretenidoo"))
 
+#Ejercicio 3
+def  elnum(*args):
+    for i in args:
+        if args[i] == 0 and args[i- 1] == 0:
+            return True
+    return False
+
+print(elnum(6,0,5,1,0,3,0,1))
