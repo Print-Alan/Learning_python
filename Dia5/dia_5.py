@@ -280,3 +280,10 @@ def suma (**kwargs):
         total += valor
     return total
 print(suma(x=3, y=5, z=2))
+
+def cantidad_atributos(**kwargs):
+    return len(kwargs)      #len te dira cuantas claves hay en tu dicconario
+    
+kwarg = {'color_ojos': 'azules', 'color_pelo':'rubio'} 
+cantidad_atributos(**kwarg)
+
