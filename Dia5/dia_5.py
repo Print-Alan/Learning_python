@@ -239,7 +239,7 @@ Resultado_moneda=lanzar_moneda()        #El resultado de lanzar_moneda() guardal
 peru = probar_suerte(Resultado_moneda,lista_numeros)    #Probar_suerte() Operara con el Resultado_moneda y la lista_numeros
 print(Resultado_moneda,peru) #Imprime ambos
 
-#Argumentos indefenidos (*args **kwargs)
+#Argumentos indefenidos (*args)
 #*Args (Arguments) Te permite definir funciones cuyo numero de argumentos sea variable
 #Ejemplo:
 def suma(*args): #*Args es god
@@ -270,3 +270,13 @@ def numeros_persona(nombre,*args_num):
     return f"{nombre}, la suma de tus números es {suma_numeros}"
 print(numeros_persona("Alan",1,2,3))
 
+#Argumentos indefinidos(**kwargs)
+#key word arguments Funcionaa con diccionarios para pasar valores y que haga algo con ese codigo
+#Ejemplo:
+def suma (**kwargs):
+    total = 0
+    for clave,valor in kwargs.items():
+        print(f"{clave} = {valor}")
+        total += valor
+    return total
+print(suma(x=3, y=5, z=2))
