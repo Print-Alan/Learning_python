@@ -1,12 +1,14 @@
 #Ejercicio 1
 def devolver_distintos(num1,num2,num3):
     suma = sum(num1,num2,num3)
+    lista = [num1,num2,num3]
     if suma > 15:
-        return max(suma)
+        return max(lista)
     elif suma < 10:
-        return min(suma)
+        return min(lista)
     else:
-        return suma/len(suma)
+        lista.sort()
+        return lista[1]
     
 
 #Ejercicio 2
@@ -24,3 +26,17 @@ def  elnum(*args):
     return False
 
 print(elnum(6,0,5,1,0,3,0,1))
+
+#Ejercicio 4
+def contar_primos(num):
+    for n in range(1,num):
+        if n / n :
+            pass 
+        elif n / 1:
+            pass
+        elif n / 2:
+            pass
+        else: 
+            print(n)
+    return num
+contar_primos(11)
