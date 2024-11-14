@@ -293,3 +293,15 @@ def lista_atributos(**keywords):
     
 print(lista_atributos(**dic))
 
+def describir_persona(nombre,**kwargs):
+    descripcion = f"Características de {nombre}:\n"
+    for nombre_argumento,valor_argumento in kwargs.items():
+        descripcion += f"{nombre_argumento}: {valor_argumento}\n"
+    descripcion = descripcion.rstrip('\n') #Eliminamos el ultimo salto de linea
+    return descripcion
+    
+nombre = "tomás"
+Características = {"Color_ojos": "azules", "color_pelo": "rubio"}
+resultado = describir_persona(nombre,**Características)
+print(resultado)
+
