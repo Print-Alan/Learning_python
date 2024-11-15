@@ -10,7 +10,6 @@ def devolver_distintos(num1,num2,num3):
         lista.sort()
         return lista[1]
     
-
 #Ejercicio 2
 def elnombre(name):
     name = list(set(name))
@@ -29,14 +28,21 @@ print(elnum(6,0,5,1,0,3,0,1))
 
 #Ejercicio 4
 def contar_primos(num):
-    for n in range(1,num):
-        if n / n :
-            pass 
-        elif n / 1:
-            pass
-        elif n / 2:
-            pass
-        else: 
-            print(n)
-    return num
+
+    primos = [2]
+    iteracion = 3
+
+    if num < 2:
+        return 0
+    while iteracion <= num:
+        for n in range(3,iteracion,2):
+            if iteracion % n == 0:
+                iteracion += 2
+                break
+        else:
+            primos.append(iteracion)
+            iteracion += 2
+
+    print(primos)
+    return len(primos)
 contar_primos(11)
