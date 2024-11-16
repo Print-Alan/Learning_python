@@ -170,7 +170,7 @@ def mezclar(lista):
 
 #Pedirle intento
 def probar_suerte():
-    intento = ""
+    intento = []
     while intento not in ["1","2","3",]:
         intento = input("Elige un numero del 1 al 3: ")
 
