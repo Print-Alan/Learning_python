@@ -17,9 +17,15 @@ mi_archivo.close #Cierra el archivo
 
 #
 mi_archivo = open("texto.txt")
-print(mi_archivo.read()) #Lee el archivo completo
+print(mi_archivo.read()) #Lee el archivo completo y imprime
 mi_archivo.close
 
 mi_archivo = open("texto.txt")
-print(mi_archivo.readline()) #Lee la primera linea
+print(mi_archivo.readline()) #Lee la primera linea e imprime
 mi_archivo.close
+
+mi_archivo = open("texto.txt")
+mi_archivo.readline() #Lee la primera linea
+print(mi_archivo.readline()) #Lee la segunda linea e imprime
+mi_archivo.close
+
