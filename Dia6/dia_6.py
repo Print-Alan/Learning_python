@@ -17,5 +17,9 @@ mi_archivo.close #Cierra el archivo
 
 #
 mi_archivo = open("texto.txt")
-print(mi_archivo.read())
+print(mi_archivo.read()) #Lee el archivo completo
+mi_archivo.close
+
+mi_archivo = open("texto.txt")
+print(mi_archivo.readline()) #Lee la primera linea
 mi_archivo.close
