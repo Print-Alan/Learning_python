@@ -59,3 +59,12 @@ archivo.close()
 archivo = open("mi_archivo.txt")
 print(archivo.read())
 archivo.close()
+
+registro_ultima_sesion = ["Federico", "20/12/2021", "08:17:32 hs", "Sin errores de carga"]
+archivo = open("registro.txt","a") 
+for i in registro_ultima_sesion: #Por cada item en la lista
+    archivo.writelines(i + "\t") #Al archivo le escribriras en varias lineas el item y una tabulacion
+archivo.close()
+archivo = open("registro.txt")
+print(archivo.read())
+archivo.close()
