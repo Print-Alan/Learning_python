@@ -95,3 +95,23 @@ carpta = Path("C:/Users/SSD/Desktop") / "otro_archivo.txt" #Path hace que cualqu
 mi_archivo1 = open(carpta)
 print(mi_archivo1.read())
 mi_archivo1.close()
+
+#pathlib
+#Nos permite manipular rutas de archivos de forma rapida
+
+from pathlib import Path, PureWindowsPath #PureWindowsPath nos transforma cualquier ruta a una ruta de windows
+
+carpeta = Path("C:/Users/SSD/Desktop/otro_archivo.txt")
+
+ruta_windows = PureWindowsPath(carpeta) #Nos transforma la ruta a una ruta windows
+print(ruta_windows)
+
+print(carpeta.read_text()) #El objeto de Path nos permite leer de forma más sencilla usando .read_text(). Sin abrir y cerrar achivos
+print(carpeta.name) #Nos da el nombre del archivo
+print(carpeta.suffix) #Nos dice de que tipo es .txt, etc
+print(carpeta.stem) #Nos da el nombre del archivo sin decir el tipo
+
+if not carpta.exists(): #El metodo exist nos dice si existe devolviendo un booleano
+    print("Este archivo no existe")
+else:
+    print("Si existe")
