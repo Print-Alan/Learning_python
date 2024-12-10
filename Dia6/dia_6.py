@@ -68,3 +68,30 @@ archivo.close()
 archivo = open("registro.txt")
 print(archivo.read())
 archivo.close()
+
+#Directorios
+#Al abrir un archivo python lo busca en la carpeta donde esta guardado el programa que utilizas
+#De la sig manera podemos abrir archivos que se encuentran en otra parte
+import os #Importamos os (operative system) que nos da las herramientas para interactuar con el directorio
+
+ruta = os.chdir("C:\\Users\\SSD\\Desktop") #Especificamos la ruta del archivo en el chdir (change directory)
+archivo2 = open("otro_archivo.txt")        #Abrimos el archivo
+print(archivo2.read())                     #Imprimimos
+archivo2.close()
+
+#ruta1 = os.makedirs("C:\\Users\\SSD\\Desktop\\Otra")   Makedirs crea directorios colocando la ruta y el nombre del archivo
+
+ruta2 = "C:\\Users\\SSD\\Desktop\\Ilearn-py\\Dia6\\prueba.txt"
+elemento = os.path.basename(ruta2) #Pedimos el nombre de base de nuestra ruta
+elemento = os.path.dirname(ruta2)   #Pedimos el nombre completo de la ruta
+elemento = os.path.split(ruta2)     #Nos da ambos
+print(elemento)
+
+#os.rmdir("C:\\Users\\SSD\\Desktop\\Otra") #Rmdir Elimina los directorios
+
+from pathlib import Path
+
+carpta = Path("C:/Users/SSD/Desktop") / "otro_archivo.txt" #Path hace que cualquier sistema windows o Mac lo pueda entender
+mi_archivo1 = open(carpta)
+print(mi_archivo1.read())
+mi_archivo1.close()
