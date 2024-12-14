@@ -152,3 +152,9 @@ print(ruta_base)
 from pathlib import Path
 ruta = Path("Curso Python","Día 6","practicas_path.py") #Creamos una ruta relativa 
 print(ruta)
+
+from pathlib import Path
+
+ruta = Path.home()
+ruta = Path(ruta,"Curso Python","Día 6", "practicas_path.py")
+print(ruta)
