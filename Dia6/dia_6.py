@@ -144,3 +144,7 @@ en_europa = guia3.relative_to(Path("Europa")) #Relative_to() Elimina del inicio 
 en_españa = guia3.relative_to(Path("Europa","España")) #De españa en adelante
 print(en_europa)
 print(en_españa)
+
+from pathlib import Path
+ruta_base = Path.home() #El directorio base se guarda en ruta_base
+print(ruta_base)
