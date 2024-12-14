@@ -115,3 +115,32 @@ if not carpta.exists(): #El metodo exist nos dice si existe devolviendo un boole
     print("Este archivo no existe")
 else:
     print("Si existe")
+
+#Path
+#Representa una ruta de un alrchivo
+#Te sirve por ejemplo:
+#-Crear o mover archivos
+#-Enumerar archivos
+#-Crear rutas basadas en strings. mi_ruta = Path("Carpeta","Archivo","Documento","Doc.txt")     De esa manera
+from pathlib import Path
+
+base = Path.home() #Te da una ruta absouta
+guia = Path(base,"Barcelona","Sagrada_Familia.txt") #Teda la ruta obsoluta + la creada
+guiaadd = Path(base,"Europa","España",Path("Barcelona","Sagrada_Familia.txt"))
+guia2 = guiaadd.with_name("La_Pedrera.txt") #Sustituye el ultimo string de un Path
+print(base)
+print(guia)
+print(guiaadd.parent) #Es una propiedad que devuelve el antecesor de un archivo
+print(guiaadd.parent.parent) #Mientras más parents pongas tu retrocedera en el arbol de directorios
+print(guia2)
+
+guia_Europa = Path(Path.home(),"Europa")
+
+for txt in Path(guia_Europa).glob("**/*.txt"):
+    print(txt)
+
+guia3 = Path("Europa","España","Barcelona","Sagrada_Familia.txt")
+en_europa = guia3.relative_to(Path("Europa")) #Relative_to() Elimina del inicio de una ruta el segmento que corresponde a otra ruta base especificada.
+en_españa = guia3.relative_to(Path("Europa","España")) #De españa en adelante
+print(en_europa)
+print(en_españa)
