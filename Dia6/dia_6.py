@@ -169,3 +169,11 @@ edad = input("Dime tu edad: ")
 system ("cls")
 
 print(f"Tu nombre es {nombre} y tu edad es {edad}")
+
+#Archivos y funciones
+
+def abrir_leer(archivo):
+    no = open(archivo)
+    return no.read()
+    
+print(abrir_leer("ejemplo.txt"))
