@@ -158,3 +158,14 @@ from pathlib import Path
 ruta = Path.home()
 ruta = Path(ruta,"Curso Python","Día 6", "practicas_path.py")
 print(ruta)
+
+#Limpiar consola
+#Con forme avanzamos se va generando codigo que cuando lo imprimes no necesitas el anterior
+#Puedes inportar un metodo que te borra lo anterior y te deja con el resultado
+from os import system
+nombre = input("Dime tu nombre: ")
+edad = input("Dime tu edad: ")
+
+system ("cls")
+
+print(f"Tu nombre es {nombre} y tu edad es {edad}")
