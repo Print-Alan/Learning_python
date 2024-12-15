@@ -177,3 +177,9 @@ def abrir_leer(archivo):
     return no.read()
     
 print(abrir_leer("ejemplo.txt"))
+
+def sobrescribir(archivo):
+    x = open(archivo,"w")
+    x.write("contenido eliminado")
+
+print(sobrescribir("ejemplo.txt"))
