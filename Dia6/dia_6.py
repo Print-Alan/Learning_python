@@ -176,10 +176,17 @@ def abrir_leer(archivo):
     no = open(archivo)
     return no.read()
     
-print(abrir_leer("ejemplo.txt"))
+#print(abrir_leer("ejemplo.txt"))
 
 def sobrescribir(archivo):
     x = open(archivo,"w")
     x.write("contenido eliminado")
 
-print(sobrescribir("ejemplo.txt"))
+#print(sobrescribir("ejemplo.txt"))
+
+def registro_error(archivo):
+    x = open(archivo,"a")
+    x.write("se ha registrado un error de ejecución")
+    x.close()
+    x = open(archivo)
+    print(x.read())
