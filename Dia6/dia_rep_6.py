@@ -12,3 +12,7 @@ mi_archivo.close()
 mi_archivo = open("texto.txt")
 print(mi_archivo.read())
 mi_archivo.close()
+
+mi_archivo = open("texto.txt")
+print(mi_archivo.readline())
+mi_archivo.close()
