@@ -52,3 +52,13 @@ archivo.close()
 archivo = open("registro.txt")
 print(archivo.read())
 archivo.close()
+
+#Directorios
+
+import os
+
+ruta = os.getcwd() #Ruta con la que trabajamos
+print(ruta)
+
+ruta2 = os.chdir("C:\\Users\\SSD\\Desktop\\Ilearn-py\\Dia6") #cambiar a esta ruta 
+print(ruta2)
